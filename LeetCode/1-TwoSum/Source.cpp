@@ -15,7 +15,7 @@ public:
 
 			if (got != available.end())
 			{
-				return vector<int>{ available[req],i };
+				return vector<int>{ available[req],static_cast <int>(i) };
 			}
 			else
 	
