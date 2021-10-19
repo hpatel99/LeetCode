@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1401
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-TwoSum", "1-TwoSum\1-TwoSum.vcxproj", "{3719C6EE-107E-43E8-97BC-607AF2B176EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-LongestSubstring", "8-LongestSubstring\8-LongestSubstring.vcxproj", "{8010AD0A-47D8-4EF2-BDC6-A77ED7D1F9B1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-LongestSubstring", "3-LongestSubstring\3-LongestSubstring.vcxproj", "{8010AD0A-47D8-4EF2-BDC6-A77ED7D1F9B1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-AddTwoNumber", "2-AddTwoNumber\2-AddTwoNumber.vcxproj", "{C40B8E36-E6BF-49BF-91BB-00CA7A231722}"
 EndProject
