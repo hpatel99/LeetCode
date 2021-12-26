@@ -5,22 +5,20 @@ using namespace std;
 
 class NumArray {
 private: 
-	vector<int> nums;
+
+	vector<int> numsSums;
 public:
 	NumArray(vector<int>& nums) {
-		for (int i : nums)
+		numsSums.reserve(nums.size() + 1);
+		numsSums = nums;
+		for (int i =1; i<= nums.size(); ++i)
 		{
-			this->nums.emplace_back(i);
+			this->numsSums[i] += numsSums[i-1];
 		}
 	}
 
 	int sumRange(int left, int right) {
-		int answer = 0;
-		for (int i = left; i <= right; i++)
-		{
-			answer += nums[i];
-		}
-		return answer;
+		return left == 0 ? numsSums[right] : numsSums[right] - numsSums[left - 1];
 	}
 };
 
